@@ -2,7 +2,7 @@
 
 ## Why?
 
-When my son read [Flat Stanley](http://www.flatstanley.com) for the first time, he wanted to send his own Flat Stanley around the world.  We talked about different ways to make a journal, and he say "Wait, we can make it with [Drupal](http://drupal.org)!"
+When my son read [Flat Stanley](http://www.flatstanley.com) for the first time, he wanted to send his own Flat Stanley around the world.  We talked about different ways to make a journal, and he said "Wait, we can make it with [Drupal](http://drupal.org)!"
 
 I didn't have the heart to tell him that the publisher's web site already had an online Stanley gallery.  Plus, it's a great learning project!  So here we go...
 
