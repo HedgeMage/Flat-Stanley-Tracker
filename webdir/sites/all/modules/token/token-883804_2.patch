@@ -1,0 +1,17 @@
+diff --git token.module token.module
+index e3ac3bc..89bd2ed 100644
+--- token.module
++++ token.module
+@@ -549,6 +549,12 @@ function token_get_invalid_tokens_by_context($text, $valid_types = array(), $lea
+         $found = TRUE;
+         break;
+       }
++      if (preg_match('/^(.*[_-])\d+$/', $token, $result)) {
++        if (isset($tokens[$result[1].'N'])) {
++          $found = TRUE;
++          break;
++        }
++      }
+     }
+     if (!$found) {
+       $invalid_tokens[] = $token;
